@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
+    <title>py test</title>
+</head>
+<body>
+    <header>
+        <h1>This is a Random Profile Generator</h1>
+    </header>
+    <main>
+        <!-- <div id="text"></div>
+        <script src="script.js"></script> -->
+        <form action="/run-script" method="POST">
+            <button type="submit">Generate Profile</button>
+        </form>
+    </main>
+    <footer>
+        <h3>For more information contact 1122334455</h3>
+    </footer>
+</body>
+</html>
